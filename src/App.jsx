@@ -1,7 +1,11 @@
+import Hero from "./components/Hero";
+
 function App() {
   return (
     <>
-      <div></div>
+      <div>
+        <Hero />
+      </div>
     </>
   );
 }
