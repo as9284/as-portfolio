@@ -1,4 +1,8 @@
+import { useState } from "react";
+
 function Card({ image, title, description, link }) {
+  const [expandImage, setExpandImage] = useState(false);
+
   function openLink(url) {
     window.open(url, "_blank");
   }
@@ -9,7 +13,8 @@ function Card({ image, title, description, link }) {
         <img
           src={image}
           alt={title}
-          className="w-[40rem] h-auto overflow-hidden rounded-t-md"
+          className="w-[40rem] h-auto overflow-hidden rounded-t-md cursor-pointer"
+          onClick={() => setExpandImage(true)}
         />
         <div className="w-full flex flex-col justify-center items-center gap-2 my-12">
           <h1 className="text-2xl text-black font-bold uppercase drop-shadow-md">
@@ -28,6 +33,18 @@ function Card({ image, title, description, link }) {
           </button>
         </div>
       </div>
+      {expandImage && (
+        <div
+          className="w-screen h-screen flex justify-center items-center top-0 left-0 fixed z-10 bg-black/80 backdrop-blur-lg cursor-pointer"
+          onClick={() => setExpandImage(false)}
+        >
+          <img
+            src={image}
+            alt={title}
+            className="w-3/4 overflow-hidden rounded-md shadow-xl"
+          />
+        </div>
+      )}
     </>
   );
 }
