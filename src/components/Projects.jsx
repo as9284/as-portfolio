@@ -1,8 +1,25 @@
 import Card from "./Card";
+import CardData from "../data/cardsData.json";
 
 import AstraProperties from "../assets/astrap.png";
 import LunaCloud from "../assets/lunac.png";
 import QuickNews from "../assets/quickn.png";
+
+const images = {
+  "astrap.png": AstraProperties,
+  "lunac.png": LunaCloud,
+  "quickn.png": QuickNews,
+};
+
+const importAll = (imagePaths) => {
+  let importedImages = {};
+  for (let path in imagePaths) {
+    importedImages[path] = imagePaths[path];
+  }
+  return importedImages;
+};
+
+const importedImages = importAll(images);
 
 function Projects({ targetRef }) {
   return (
@@ -15,30 +32,15 @@ function Projects({ targetRef }) {
           Projects
         </h1>
         <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          <Card
-            image={AstraProperties}
-            title={"Astra Properties"}
-            description={
-              "Modern real estate website built with React & CSS, with a primary focus on good responsive practices while using no media queries."
-            }
-            link={"https://github.com/AnthonySaliba787/astra-properties"}
-          />
-          <Card
-            image={LunaCloud}
-            title={"Luna Cloud"}
-            description={
-              "Minimalistic cloud storage website built with React & Tailwind CSS, with a heavy focus on ease-of-use and beautiful design."
-            }
-            link={"https://github.com/AnthonySaliba787/luna-cloud"}
-          />
-          <Card
-            image={QuickNews}
-            title={"Quick News"}
-            description={
-              "Modern news website built with React & Tailwind that leverages NewsAPI for providing users with a quick and easy way to get updated news."
-            }
-            link={"https://github.com/AnthonySaliba787/quick-news"}
-          />
+          {CardData.map((item) => (
+            <Card
+              key={item.id}
+              image={importedImages[item.src]}
+              title={item.title}
+              description={item.description}
+              link={item.link}
+            />
+          ))}
         </div>
       </div>
     </>

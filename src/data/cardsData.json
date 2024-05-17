@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Astra Properties",
+    "description": "Modern real estate website built with React & CSS, with a primary focus on good responsive practices while using no media queries.",
+    "src": "astrap.png",
+    "link": "https://github.com/AnthonySaliba787/astra-properties"
+  },
+  {
+    "id": 2,
+    "title": "Luna Cloud",
+    "description": "Minimalistic cloud storage website built with React & Tailwind CSS, with a heavy focus on ease-of-use and beautiful design.",
+    "src": "lunac.png",
+    "link": "https://github.com/AnthonySaliba787/luna-cloud"
+  },
+  {
+    "id": 3,
+    "title": "Quick News",
+    "description": "Modern news website built with React & Tailwind that leverages NewsAPI for providing users with a quick and easy way to get updated news.",
+    "src": "quickn.png",
+    "link": "https://github.com/AnthonySaliba787/quick-news"
+  }
+]

@@ -3,10 +3,6 @@ function Card({ image, title, description, link }) {
     window.open(url, "_blank");
   }
 
-  function mailToEmail(email) {
-    window.location.href = `mailto:${email}`;
-  }
-
   return (
     <>
       <div className="max-w-[1240px] h-[36rem] flex flex-col justify-between items-center gap-2 shadow-xl place-items-center rounded-md hover:scale-[1.02] duration-300">
