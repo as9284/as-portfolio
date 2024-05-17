@@ -45,6 +45,7 @@ function Projects({ projectsRef }) {
               title={item.title}
               description={item.description}
               link={item.link}
+              tags={item.tags}
             />
           ))}
         </div>

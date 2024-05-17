@@ -1,6 +1,7 @@
 import { useState } from "react";
+import Tags from "./Tags";
 
-function Card({ image, title, description, link }) {
+function Card({ image, title, description, link, tags }) {
   const [expandImage, setExpandImage] = useState(false);
 
   function openLink(url) {
@@ -14,9 +15,10 @@ function Card({ image, title, description, link }) {
         <img
           src={image}
           alt={title}
-          className="w-[40rem] h-auto overflow-hidden rounded-t-md cursor-pointer"
+          className="w-[40rem] h-auto overflow-hidden rounded-t-md hover:brightness-75 cursor-zoom-in duration-300"
           onClick={() => setExpandImage(true)}
         />
+        <Tags tags={tags} />
         <div className="w-full flex flex-col justify-center items-center gap-2 my-12">
           <h1 className="text-2xl text-black font-bold uppercase drop-shadow-md">
             {title}
@@ -36,7 +38,7 @@ function Card({ image, title, description, link }) {
       </div>
       {expandImage && (
         <div
-          className="w-screen h-screen flex justify-center items-center top-0 left-0 fixed z-10 bg-black/80 backdrop-blur-lg cursor-pointer"
+          className="w-screen h-screen flex justify-center items-center top-0 left-0 fixed z-10 bg-black/80 backdrop-blur-lg cursor-zoom-out"
           onClick={() => setExpandImage(false)}
         >
           <img
