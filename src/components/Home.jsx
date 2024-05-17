@@ -4,7 +4,6 @@ import Background from "../assets/bg.png";
 import AstraProperties from "../assets/astrap.png";
 import LunaCloud from "../assets/lunac.png";
 import QuickNews from "../assets/quickn.png";
-import { RiReactjsFill, RiTailwindCssFill } from "react-icons/ri";
 import { MdEmail } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";
 
@@ -65,7 +64,7 @@ function Hero() {
           className={`w-full min-h-[50rem] flex flex-col justify-center items-center text-center px-4 sm:px-20 py-4 gap-8`}
         >
           <h1 className="text-3xl text-black md:text-4xl lg:text-5xl font-bold uppercase drop-shadow-md">
-            React Projects
+            Projects
           </h1>
           <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             <div className="max-w-[1240px] h-[36rem] flex flex-col justify-between items-center gap-2 shadow-xl place-items-center rounded-md hover:scale-[1.02] duration-300">
@@ -158,12 +157,12 @@ function Hero() {
         <div
           className={`w-full min-h-[14rem] flex flex-col justify-center items-center text-center px-4 sm:px-20 py-8 gap-2`}
         >
-          <div className="max-w-[900px] flex flex-col justify-center items-center gap-2 shadow-xl place-items-center rounded-md hover:scale-[1.02] duration-300">
+          <div className="max-w-[900px] bg-black text-white flex flex-col justify-center items-center gap-2 shadow-xl place-items-center rounded-md hover:scale-[1.02] duration-300">
             <div className="w-full flex flex-col justify-center items-center gap-2 my-12">
-              <h1 className="text-2xl text-black font-bold uppercase drop-shadow-md">
+              <h1 className="text-2xl font-bold uppercase drop-shadow-md">
                 About
               </h1>
-              <p className="text-lg md:text-xl text-black font-normal drop-shadow-md px-4">
+              <p className="text-lg md:text-xl font-normal drop-shadow-md px-4">
                 I am a fresh graduate front end web developer that loves making
                 beautiful and modern websites, while always aspiring to learn
                 and advance my knowledge whenever possible.
@@ -184,18 +183,6 @@ function Hero() {
               </div>
             </div>
           </div>
-        </div>
-        {/* Fact Section */}
-        <div
-          className={`w-full min-h-[7rem] bg-black flex flex-col justify-center items-center text-center px-4 sm:px-20 py-4 gap-2`}
-        >
-          <div className="w-full text-white flex flex-row justify-center items-center text-center gap-4">
-            <RiReactjsFill size={50} />
-            <RiTailwindCssFill size={50} />
-          </div>
-          <h1 className="text-lg text-white md:text-xl lg:text-2xl font-bold uppercase drop-shadow-md">
-            This website was made from scratch with react & tailwind CSS
-          </h1>
         </div>
       </div>
     </>
