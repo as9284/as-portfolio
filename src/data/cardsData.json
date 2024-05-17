@@ -9,7 +9,7 @@
   {
     "id": 2,
     "title": "Luna Cloud",
-    "description": "Minimalistic cloud storage website built with React & Tailwind CSS, with a heavy focus on ease-of-use and beautiful design.",
+    "description": "Minimalistic cloud storage website built with React & Tailwind, with a heavy focus on ease-of-use and beautiful design.",
     "src": "lunac.png",
     "link": "https://github.com/AnthonySaliba787/luna-cloud"
   },
