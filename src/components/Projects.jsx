@@ -4,11 +4,17 @@ import CardData from "../data/cardsData.json";
 import AstraProperties from "../assets/astrap.png";
 import LunaCloud from "../assets/lunac.png";
 import QuickNews from "../assets/quickn.png";
+import HoloNotes from "../assets/holonotes.png";
+import QuickPass from "../assets/quickpass.png";
+import QuickShorten from "../assets/quickshorten.png";
 
 const images = {
   "astrap.png": AstraProperties,
   "lunac.png": LunaCloud,
   "quickn.png": QuickNews,
+  "holonotes.png": HoloNotes,
+  "quickpass.png": QuickPass,
+  "quickshorten.png": QuickShorten,
 };
 
 const importAll = (imagePaths) => {
@@ -21,12 +27,12 @@ const importAll = (imagePaths) => {
 
 const importedImages = importAll(images);
 
-function Projects({ targetRef }) {
+function Projects({ projectsRef }) {
   return (
     <>
       <div
-        ref={targetRef}
-        className={`w-full min-h-[50rem] flex flex-col justify-center items-center text-center px-4 sm:px-20 py-4 gap-8`}
+        ref={projectsRef}
+        className={`w-full min-h-[50rem] flex flex-col justify-center items-center text-center px-4 sm:px-20 py-8 gap-12`}
       >
         <h1 className="text-3xl text-black md:text-4xl lg:text-5xl font-bold uppercase drop-shadow-md">
           Projects

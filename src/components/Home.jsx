@@ -6,10 +6,18 @@ import Projects from "./Projects";
 import About from "./About";
 
 function Hero() {
-  const targetRef = useRef(null);
-  const scrollToElement = () => {
-    if (targetRef.current) {
-      targetRef.current.scrollIntoView({ behavior: "smooth" });
+  const projectsRef = useRef(null);
+  const aboutRef = useRef(null);
+
+  const scrollToProjects = () => {
+    if (projectsRef.current) {
+      projectsRef.current.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  const scrollToAbout = () => {
+    if (aboutRef.current) {
+      aboutRef.current.scrollIntoView({ behavior: "smooth" });
     }
   };
 
@@ -40,18 +48,27 @@ function Hero() {
               </p>
             </div>
 
-            <button
-              onClick={scrollToElement}
-              className="w-full text-base md:text-lg lg:text-xl py-4 my-2 rounded-md bg-neutral-900 font-medium text-white shadow-lg hover:bg-neutral-700 hover:shadow-xl focus:bg-neutral-700 focus:shadow-lg active:scale-95 duration-300 uppercase"
-            >
-              Discover
-            </button>
+            <div className="w-full flex flex-row gap-4">
+              <button
+                onClick={scrollToProjects}
+                className="w-full text-base md:text-lg lg:text-xl py-4 my-2 rounded-md bg-neutral-900 font-medium text-white shadow-lg hover:bg-neutral-700 hover:shadow-xl focus:bg-neutral-700 focus:shadow-lg active:scale-95 duration-300 uppercase"
+              >
+                Discover
+              </button>
+
+              <button
+                onClick={scrollToAbout}
+                className="w-full text-base md:text-lg lg:text-xl py-4 my-2 rounded-md bg-neutral-900 font-medium text-white shadow-lg hover:bg-neutral-700 hover:shadow-xl focus:bg-neutral-700 focus:shadow-lg active:scale-95 duration-300 uppercase"
+              >
+                About
+              </button>
+            </div>
           </div>
         </div>
 
-        <Projects targetRef={targetRef} />
+        <Projects projectsRef={projectsRef} />
 
-        <About />
+        <About aboutRef={aboutRef} />
       </div>
     </>
   );

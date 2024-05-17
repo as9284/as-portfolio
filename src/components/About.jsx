@@ -1,7 +1,7 @@
 import { MdEmail } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";
 
-function About() {
+function About({ aboutRef }) {
   function openLink(url) {
     window.open(url, "_blank");
   }
@@ -12,6 +12,7 @@ function About() {
   return (
     <>
       <div
+        ref={aboutRef}
         className={`w-full min-h-[14rem] flex flex-col justify-center items-center text-center px-4 sm:px-20 py-8 gap-2`}
       >
         <div className="max-w-[900px] bg-black text-white flex flex-col justify-center items-center gap-2 shadow-xl place-items-center rounded-md hover:scale-[1.02] duration-300">
