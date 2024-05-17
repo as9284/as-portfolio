@@ -10,6 +10,7 @@ function Card({ image, title, description, link }) {
   return (
     <>
       <div className="max-w-[1240px] h-[36rem] flex flex-col justify-between items-center gap-2 shadow-xl place-items-center rounded-md hover:scale-[1.02] duration-300">
+        {/* <a href={image} target="_blank" rel="noopener noreferrer"></a> */}
         <img
           src={image}
           alt={title}
