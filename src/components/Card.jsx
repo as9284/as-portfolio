@@ -37,15 +37,26 @@ function Card({ image, title, description, link, tags }) {
         </div>
       </div>
       {expandImage && (
-        <div
-          className="w-screen h-screen flex justify-center items-center top-0 left-0 fixed z-10 bg-black/80 backdrop-blur-lg cursor-zoom-out"
-          onClick={() => setExpandImage(false)}
-        >
+        <div className="w-screen h-screen flex flex-col justify-center items-center top-0 left-0 fixed z-10 bg-black/80 backdrop-blur-lg px-8">
           <img
             src={image}
             alt={title}
-            className="w-3/4 overflow-hidden rounded-md shadow-xl"
+            className="w-full max-w-md md:max-w-xl lg:max-w-5xl overflow-hidden rounded-md shadow-xl"
           />
+          <div className="w-full flex flex-row justify-center items-center gap-4 py-4">
+            <button
+              onClick={() => openLink(image)}
+              className="w-32 py-3 bg-neutral-200 rounded-md shadow-md font-medium text-neutral-800 hover:bg-neutral-900 hover:text-neutral-100 duration-200"
+            >
+              Expand
+            </button>
+            <button
+              onClick={() => setExpandImage(false)}
+              className="w-32 py-3 bg-neutral-200 rounded-md shadow-md font-medium text-neutral-800 hover:bg-neutral-900 hover:text-neutral-100 duration-200"
+            >
+              Close
+            </button>
+          </div>
         </div>
       )}
     </>
