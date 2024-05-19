@@ -7,6 +7,7 @@ import QuickNews from "../assets/quickn.png";
 import HoloNotes from "../assets/holonotes.png";
 import QuickPass from "../assets/quickpass.png";
 import QuickShorten from "../assets/quickshorten.png";
+import AstraFeedback from "../assets/astrafeedback.png";
 
 const images = {
   "astrap.png": AstraProperties,
@@ -15,6 +16,7 @@ const images = {
   "holonotes.png": HoloNotes,
   "quickpass.png": QuickPass,
   "quickshorten.png": QuickShorten,
+  "astrafeedback.png": AstraFeedback,
 };
 
 const importAll = (imagePaths) => {
