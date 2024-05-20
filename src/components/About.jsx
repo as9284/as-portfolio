@@ -13,7 +13,7 @@ function About({ aboutRef, darkMode, toggleDarkMode }) {
     <>
       <div
         ref={aboutRef}
-        className={`w-full min-h-[14rem] flex flex-col justify-center items-center text-center px-4 sm:px-20 py-8 gap-2`}
+        className={`w-full min-h-[14rem] flex flex-col justify-center items-center text-center px-4 sm:px-20 py-8 gap-2 dark:bg-neutral-900 duration-300`}
       >
         <div className="max-w-[900px] bg-black text-white flex flex-col justify-center items-center gap-2 shadow-xl place-items-center rounded-md hover:scale-[1.02] duration-300">
           <div className="w-full flex flex-col justify-center items-center gap-2 my-12">
