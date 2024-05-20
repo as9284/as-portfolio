@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
-import BackgroundLight from "../assets/BackgroundLight.png";
-import BackgroundDark from "../assets/BackgroundDark.png";
+import BackgroundLight from "../assets/BackgroundLight.webp";
+import BackgroundDark from "../assets/BackgroundDark.webp";
 import { PiIdentificationBadgeFill } from "react-icons/pi";
 
 import Projects from "./Projects";
