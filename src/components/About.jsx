@@ -1,7 +1,7 @@
-import { MdEmail } from "react-icons/md";
+import { MdDarkMode, MdEmail, MdLightMode } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";
 
-function About({ aboutRef }) {
+function About({ aboutRef, darkMode, toggleDarkMode }) {
   function openLink(url) {
     window.open(url, "_blank");
   }
@@ -36,6 +36,19 @@ function About({ aboutRef }) {
                 size={35}
                 className="cursor-pointer hover:scale-110 duration-300"
               />
+              {!darkMode ? (
+                <MdDarkMode
+                  onClick={toggleDarkMode}
+                  size={35}
+                  className="cursor-pointer hover:scale-110 duration-300"
+                />
+              ) : (
+                <MdLightMode
+                  onClick={toggleDarkMode}
+                  size={35}
+                  className="cursor-pointer hover:scale-110 duration-300"
+                />
+              )}
             </div>
           </div>
         </div>

@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import Background from "../assets/bg.png";
 import { PiIdentificationBadgeFill } from "react-icons/pi";
 
@@ -8,6 +8,18 @@ import About from "./About";
 function Hero() {
   const projectsRef = useRef(null);
   const aboutRef = useRef(null);
+  const [darkMode, setDarkMode] = useState(false);
+
+  useEffect(() => {
+    const savedTheme = localStorage.getItem("theme");
+    if (savedTheme === "dark") {
+      document.documentElement.classList.add("dark");
+      setDarkMode(true);
+    } else {
+      document.documentElement.classList.remove("dark");
+      setDarkMode(false);
+    }
+  }, []);
 
   const scrollToProjects = () => {
     if (projectsRef.current) {
@@ -18,6 +30,17 @@ function Hero() {
   const scrollToAbout = () => {
     if (aboutRef.current) {
       aboutRef.current.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  const toggleDarkMode = () => {
+    setDarkMode(!darkMode);
+    if (!darkMode) {
+      document.documentElement.classList.add("dark");
+      localStorage.setItem("theme", "dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+      localStorage.setItem("theme", "light");
     }
   };
 
@@ -68,7 +91,11 @@ function Hero() {
 
         <Projects projectsRef={projectsRef} />
 
-        <About aboutRef={aboutRef} />
+        <About
+          aboutRef={aboutRef}
+          darkMode={darkMode}
+          toggleDarkMode={toggleDarkMode}
+        />
       </div>
     </>
   );
