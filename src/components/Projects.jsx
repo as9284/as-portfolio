@@ -1,22 +1,22 @@
 import Card from "./Card";
 import CardData from "../data/cardsData.json";
 
-import AstraProperties from "../assets/astrap.png";
-import LunaCloud from "../assets/lunac.png";
-import QuickNews from "../assets/quickn.png";
-import HoloNotes from "../assets/holonotes.png";
-import QuickPass from "../assets/quickpass.png";
-import QuickShorten from "../assets/quickshorten.png";
-import AstraFeedback from "../assets/astrafeedback.png";
+import AstraProperties from "../assets/astrap.webp";
+import LunaCloud from "../assets/lunac.webp";
+import QuickNews from "../assets/quickn.webp";
+import HoloNotes from "../assets/holonotes.webp";
+import QuickPass from "../assets/quickpass.webp";
+import QuickShorten from "../assets/quickshorten.webp";
+import AstraFeedback from "../assets/astrafeedback.webp";
 
 const images = {
-  "astrap.png": AstraProperties,
-  "lunac.png": LunaCloud,
-  "quickn.png": QuickNews,
-  "holonotes.png": HoloNotes,
-  "quickpass.png": QuickPass,
-  "quickshorten.png": QuickShorten,
-  "astrafeedback.png": AstraFeedback,
+  "astrap.webp": AstraProperties,
+  "lunac.webp": LunaCloud,
+  "quickn.webp": QuickNews,
+  "holonotes.webp": HoloNotes,
+  "quickpass.webp": QuickPass,
+  "quickshorten.webp": QuickShorten,
+  "astrafeedback.webp": AstraFeedback,
 };
 
 const importAll = (imagePaths) => {
