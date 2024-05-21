@@ -8,6 +8,7 @@ import HoloNotes from "../assets/holonotes.webp";
 import QuickPass from "../assets/quickpass.webp";
 import QuickShorten from "../assets/quickshorten.webp";
 import AstraFeedback from "../assets/astrafeedback.webp";
+import AstraWeather from "../assets/astraweather.webp";
 
 const images = {
   "astrap.webp": AstraProperties,
@@ -17,6 +18,7 @@ const images = {
   "quickpass.webp": QuickPass,
   "quickshorten.webp": QuickShorten,
   "astrafeedback.webp": AstraFeedback,
+  "astraweather.webp": AstraWeather,
 };
 
 const importAll = (imagePaths) => {

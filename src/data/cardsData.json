@@ -41,6 +41,14 @@
   },
   {
     "id": 6,
+    "title": "Astra Weather",
+    "description": "Minimalistic weather app built with React & Tailwind that leverages WeatherAPI for current weather data and a 3 day forecast.",
+    "src": "astraweather.webp",
+    "link": "https://github.com/AnthonySaliba787/astra-weather",
+    "tags": "react+tailwind"
+  },
+  {
+    "id": 7,
     "title": "Holo Notes",
     "description": "Minimal note-taking web app made with Vue & Tailwind, with local data storing.",
     "src": "holonotes.webp",
@@ -48,7 +56,7 @@
     "tags": "vue+tailwind"
   },
   {
-    "id": 7,
+    "id": 8,
     "title": "Quick Pass",
     "description": "Minimal password generator web app made with Vue & Tailwind, with password customization options.",
     "src": "quickpass.webp",
