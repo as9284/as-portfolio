@@ -5,7 +5,8 @@
     "description": "Modern real estate website built with React & CSS, with a primary focus on good responsive practices while using no media queries.",
     "src": "astrap.webp",
     "link": "https://github.com/AnthonySaliba787/astra-properties",
-    "tags": "react+css"
+    "tags": "react+css",
+    "type": "static"
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "description": "Minimalistic cloud storage website built with React & Tailwind, with a heavy focus on ease-of-use and beautiful design.",
     "src": "lunac.webp",
     "link": "https://github.com/AnthonySaliba787/luna-cloud",
-    "tags": "react+tailwind"
+    "tags": "react+tailwind",
+    "type": "static"
   },
   {
     "id": 3,
@@ -21,7 +23,8 @@
     "description": "Modern news website built with React & Tailwind that leverages NewsAPI for providing users with a quick and easy way to get updated news.",
     "src": "quickn.webp",
     "link": "https://github.com/AnthonySaliba787/quick-news",
-    "tags": "react+tailwind"
+    "tags": "react+tailwind",
+    "type": "dynamic"
   },
   {
     "id": 4,
@@ -29,7 +32,8 @@
     "description": "Minimal link shortening web app made with React & Tailwind that leverages the Bitly API for shrinking links quickly and easily.",
     "src": "quickshorten.webp",
     "link": "https://github.com/AnthonySaliba787/quick-shorten",
-    "tags": "react+tailwind"
+    "tags": "react+tailwind",
+    "type": "dynamic"
   },
   {
     "id": 5,
@@ -37,7 +41,8 @@
     "description": "Signup/login web app that focuses on storing user data locally, encrypting user password and opening a feedback form page for showcase.",
     "src": "astrafeedback.webp",
     "link": "https://github.com/AnthonySaliba787/astra-feedback",
-    "tags": "react+tailwind"
+    "tags": "react+tailwind",
+    "type": "dynamic"
   },
   {
     "id": 6,
@@ -45,7 +50,8 @@
     "description": "Minimalistic weather app built with React & Tailwind that leverages WeatherAPI for current weather data and a 3 day forecast.",
     "src": "astraweather.webp",
     "link": "https://github.com/AnthonySaliba787/astra-weather",
-    "tags": "react+tailwind"
+    "tags": "react+tailwind",
+    "type": "dynamic"
   },
   {
     "id": 7,
@@ -53,7 +59,8 @@
     "description": "Minimal note-taking web app made with Vue & Tailwind, with local data storing.",
     "src": "holonotes.webp",
     "link": "https://github.com/AnthonySaliba787/holo-notes-v2",
-    "tags": "vue+tailwind"
+    "tags": "vue+tailwind",
+    "type": "dynamic"
   },
   {
     "id": 8,
@@ -61,6 +68,7 @@
     "description": "Minimal password generator web app made with Vue & Tailwind, with password customization options.",
     "src": "quickpass.webp",
     "link": "https://github.com/AnthonySaliba787/quick-pass",
-    "tags": "vue+tailwind"
+    "tags": "vue+tailwind",
+    "type": "dynamic"
   }
 ]
