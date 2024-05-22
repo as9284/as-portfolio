@@ -41,6 +41,14 @@ function Projects({ projectsRef }) {
         <h1 className="text-3xl text-black md:text-4xl lg:text-5xl font-bold uppercase drop-shadow-md dark:text-neutral-200">
           Projects
         </h1>
+        <div className="w-full flex flex-row justify-center items-center gap-4 text-center">
+          <button className="w-1/2 px-4 py-4 bg-neutral-800 rounded-md shadow-md text-neutral-200 font-medium uppercase hover:bg-neutral-700 hover:shadow-xl focus:bg-neutral-700 focus:shadow-lg active:scale-95 duration-300">
+            Static Websites
+          </button>
+          <button className="w-1/2 px-4 py-4 bg-neutral-800 rounded-md shadow-md text-neutral-200 font-medium uppercase hover:bg-neutral-700 hover:shadow-xl focus:bg-neutral-700 focus:shadow-lg active:scale-95 duration-300">
+            Dynamic Websites
+          </button>
+        </div>
         <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {CardData.map((item) => (
             <Card
