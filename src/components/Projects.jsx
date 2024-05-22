@@ -67,7 +67,7 @@ function Projects({ projectsRef }) {
                 : "w-1/2 px-4 py-4 bg-neutral-800 rounded-md shadow-md text-neutral-200 font-medium uppercase hover:bg-neutral-700 hover:shadow-xl focus:bg-neutral-600 focus:shadow-lg active:scale-95 duration-300"
             }
           >
-            Static Websites
+            Static
           </button>
           <button
             onClick={() => changeActiveType("dynamic")}
@@ -77,7 +77,7 @@ function Projects({ projectsRef }) {
                 : "w-1/2 px-4 py-4 bg-neutral-800 rounded-md shadow-md text-neutral-200 font-medium uppercase hover:bg-neutral-700 hover:shadow-xl focus:bg-neutral-600 focus:shadow-lg active:scale-95 duration-300"
             }
           >
-            Dynamic Websites
+            Dynamic
           </button>
         </div>
         <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
