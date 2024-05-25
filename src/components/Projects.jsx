@@ -9,6 +9,7 @@ import QuickPass from "../assets/quickpass.webp";
 import QuickShorten from "../assets/quickshorten.webp";
 import AstraFeedback from "../assets/astrafeedback.webp";
 import AstraWeather from "../assets/astraweather.webp";
+import AstraPhone from "../assets/astraphone.webp";
 import { useEffect, useState } from "react";
 
 const images = {
@@ -20,6 +21,7 @@ const images = {
   "quickshorten.webp": QuickShorten,
   "astrafeedback.webp": AstraFeedback,
   "astraweather.webp": AstraWeather,
+  "astraphone.webp": AstraPhone,
 };
 
 const importAll = (imagePaths) => {

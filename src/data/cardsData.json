@@ -70,5 +70,14 @@
     "link": "https://github.com/AnthonySaliba787/quick-pass",
     "tags": "vue+tailwind",
     "type": "dynamic"
+  },
+  {
+    "id": 9,
+    "title": "AstraPhone X",
+    "description": "Product landing and preordering page for a fake phone called AstraPhone X, built with React & the Tailwind library RippleUI.",
+    "src": "astraphone.webp",
+    "link": "https://github.com/AnthonySaliba787/astraphone-page",
+    "tags": "react+tailwind",
+    "type": "static"
   }
 ]
