@@ -2,10 +2,10 @@
   {
     "id": 1,
     "title": "Astra Properties",
-    "description": "Modern real estate website built with React & CSS, with a primary focus on good responsive practices while using no media queries.",
+    "description": "Modern real estate website built with React & Tailwind, with a primary focus on a sleek glass design and minimalism.",
     "src": "astrap.webp",
-    "link": "https://github.com/AnthonySaliba787/astra-properties",
-    "tags": "react+css",
+    "link": "https://github.com/AnthonySaliba787/astra-properties-v2",
+    "tags": "react+tailwind",
     "type": "static"
   },
   {
