@@ -15,7 +15,7 @@ function Card({ image, title, description, link, tags }) {
         <img
           src={image}
           alt={title}
-          className="w-[40rem] h-auto overflow-hidden rounded-t-md hover:brightness-75 cursor-zoom-in duration-300"
+          className="w-[40rem] object-cover rounded-t-md hover:brightness-75 cursor-zoom-in duration-300"
           onClick={() => setExpandImage(true)}
         />
         <Tags tags={tags} />
