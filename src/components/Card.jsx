@@ -10,12 +10,11 @@ function Card({ image, title, description, link, tags }) {
 
   return (
     <>
-      <div className="max-w-[1240px] h-[36rem] flex flex-col justify-between items-center gap-2 shadow-xl place-items-center rounded-md hover:scale-[1.02] duration-300 dark:bg-black">
-        {/* <a href={image} target="_blank" rel="noopener noreferrer"></a> */}
+      <div className="max-w-[1240px] min-h-[36rem] flex flex-col justify-between items-center gap-2 shadow-xl place-items-center rounded-md hover:scale-[1.02] duration-300 dark:bg-black">
         <img
           src={image}
           alt={title}
-          className="w-[40rem] object-cover rounded-t-md hover:brightness-75 cursor-zoom-in duration-300"
+          className="w-full rounded-t-md hover:brightness-75 cursor-zoom-in duration-300"
           onClick={() => setExpandImage(true)}
         />
         <Tags tags={tags} />
