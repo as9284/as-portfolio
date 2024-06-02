@@ -1,5 +1,5 @@
 import { MdDarkMode, MdEmail, MdLightMode } from "react-icons/md";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 function About({ aboutRef, darkMode, toggleDarkMode }) {
   function openLink(url) {
@@ -28,6 +28,15 @@ function About({ aboutRef, darkMode, toggleDarkMode }) {
             <div className="w-full flex flex-row justify-center items-center text-center gap-6 py-4">
               <MdEmail
                 onClick={() => mailToEmail("anthonysaliba93@gmail.com")}
+                size={35}
+                className="cursor-pointer hover:scale-110 duration-300"
+              />
+              <FaLinkedin
+                onClick={() =>
+                  openLink(
+                    "https://www.linkedin.com/in/anthony-saliba-5205311b5"
+                  )
+                }
                 size={35}
                 className="cursor-pointer hover:scale-110 duration-300"
               />
