@@ -4,7 +4,7 @@
     "title": "Astra Properties",
     "description": "Modern real estate website built with React & Tailwind, with a primary focus on a sleek glass design and minimalism.",
     "src": "astrap.webp",
-    "link": "https://github.com/AnthonySaliba787/astra-properties-v2",
+    "link": "https://github.com/as9284/astra-properties-v2",
     "tags": "react+tailwind",
     "type": "static"
   },
@@ -13,7 +13,7 @@
     "title": "Luna Cloud",
     "description": "Minimalistic cloud storage website built with React & Tailwind, with a heavy focus on ease-of-use and beautiful design.",
     "src": "lunac.webp",
-    "link": "https://github.com/AnthonySaliba787/luna-cloud",
+    "link": "https://github.com/as9284/luna-cloud",
     "tags": "react+tailwind",
     "type": "static"
   },
@@ -22,7 +22,7 @@
     "title": "Quick News",
     "description": "Modern news website built with React & Tailwind that leverages NewsAPI for providing users with a quick and easy way to get updated news.",
     "src": "quickn.webp",
-    "link": "https://github.com/AnthonySaliba787/quick-news",
+    "link": "https://github.com/as9284/quick-news",
     "tags": "react+tailwind",
     "type": "dynamic"
   },
@@ -31,7 +31,7 @@
     "title": "Quick Shorten",
     "description": "Minimal link shortening web app made with React & Tailwind that leverages the Bitly API for shrinking links quickly and easily.",
     "src": "quickshorten.webp",
-    "link": "https://github.com/AnthonySaliba787/quick-shorten",
+    "link": "https://github.com/as9284/quick-shorten",
     "tags": "react+tailwind",
     "type": "dynamic"
   },
@@ -40,7 +40,7 @@
     "title": "Astra Feedback",
     "description": "Signup/login web app that focuses on storing user data locally, encrypting user password and opening a feedback form page for showcase.",
     "src": "astrafeedback.webp",
-    "link": "https://github.com/AnthonySaliba787/astra-feedback",
+    "link": "https://github.com/as9284/astra-feedback",
     "tags": "react+tailwind",
     "type": "dynamic"
   },
@@ -49,7 +49,7 @@
     "title": "Astra Weather",
     "description": "Minimalistic weather app built with React & Tailwind that leverages WeatherAPI for current weather data and a 3 day forecast.",
     "src": "astraweather.webp",
-    "link": "https://github.com/AnthonySaliba787/astra-weather",
+    "link": "https://github.com/as9284/astra-weather",
     "tags": "react+tailwind",
     "type": "dynamic"
   },
@@ -58,7 +58,7 @@
     "title": "Holo Notes",
     "description": "Minimal note-taking web app made with Vue & Tailwind, with local data storing.",
     "src": "holonotes.webp",
-    "link": "https://github.com/AnthonySaliba787/holo-notes-v2",
+    "link": "https://github.com/as9284/holo-notes-v2",
     "tags": "vue+tailwind",
     "type": "dynamic"
   },
@@ -67,7 +67,7 @@
     "title": "Quick Pass",
     "description": "Minimal password generator web app made with Vue & Tailwind, with password customization options.",
     "src": "quickpass.webp",
-    "link": "https://github.com/AnthonySaliba787/quick-pass",
+    "link": "https://github.com/as9284/quick-pass",
     "tags": "vue+tailwind",
     "type": "dynamic"
   },
@@ -76,7 +76,7 @@
     "title": "AstraPhone X",
     "description": "Product landing and preordering page for a fake phone called AstraPhone X, built with React & the Tailwind library RippleUI.",
     "src": "astraphone.webp",
-    "link": "https://github.com/AnthonySaliba787/astraphone-page",
+    "link": "https://github.com/as9284/astraphone-page",
     "tags": "react+tailwind",
     "type": "static"
   }

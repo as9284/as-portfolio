@@ -27,7 +27,7 @@ function About({ aboutRef, darkMode, toggleDarkMode }) {
             </p>
             <div className="w-full flex flex-row justify-center items-center text-center gap-6 py-4">
               <MdEmail
-                onClick={() => mailToEmail("anthonysaliba93@gmail.com")}
+                onClick={() => mailToEmail("anthonys68892@gmail.com")}
                 size={35}
                 className="cursor-pointer hover:scale-110 duration-300"
               />
@@ -41,7 +41,7 @@ function About({ aboutRef, darkMode, toggleDarkMode }) {
                 className="cursor-pointer hover:scale-110 duration-300"
               />
               <FaGithub
-                onClick={() => openLink("https://github.com/AnthonySaliba787")}
+                onClick={() => openLink("https://github.com/as9284")}
                 size={35}
                 className="cursor-pointer hover:scale-110 duration-300"
               />
