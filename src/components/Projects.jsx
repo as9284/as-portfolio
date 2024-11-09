@@ -31,7 +31,7 @@ function Projects({ projectsRef }) {
         className={`w-full min-h-[50rem] flex flex-col justify-center items-center text-center px-4 sm:px-20 py-8 gap-12 dark:bg-neutral-900 duration-300`}
       >
         <h1 className="text-3xl text-black md:text-4xl lg:text-5xl font-bold uppercase dark:text-neutral-200">
-          Projects
+          Featured Projects
         </h1>
         <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {CardData.map((item) => {
