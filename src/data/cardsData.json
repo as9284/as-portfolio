@@ -22,13 +22,5 @@
     "src": "holomovies.webp",
     "link": "https://github.com/as9284/holo-movies",
     "preview": "https://holo-movies.vercel.app/"
-  },
-  {
-    "id": 4,
-    "title": "AstraPhone X",
-    "description": "Product landing and preordering page for a fake phone called AstraPhone X, built with React & the Tailwind library RippleUI.",
-    "src": "astraphone.webp",
-    "link": "https://github.com/as9284/astraphone-page",
-    "preview": "https://as9284.github.io/astraphone-page/"
   }
 ]

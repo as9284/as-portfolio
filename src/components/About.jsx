@@ -18,9 +18,11 @@ function About() {
           <div className="w-3/4 flex flex-col justify-center items-center gap-2 my-12">
             <h1 className="text-2xl font-bold uppercase">About</h1>
             <p className="text-lg md:text-xl font-normal px-4">
-              I am a fresh graduate frontend web developer that loves making
-              beautiful and modern websites, while always aspiring to learn and
-              advance my knowledge whenever possible. You can find me below:
+              As a recent graduate and passionate frontend web developer, I am
+              dedicated to creating visually appealing and user-friendly
+              websites. I thrive on embracing new challenges and continuously
+              expanding my skills to stay ahead in the ever-evolving world of
+              web development. Feel free to connect with me below:
             </p>
             <div className="w-full flex flex-row justify-center items-center text-center gap-6 py-4">
               <MdEmail

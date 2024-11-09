@@ -3,13 +3,11 @@ import CardData from "../data/cardsData.json";
 
 import QuickShorten from "../assets/quickshorten.webp";
 import AstraFeedback from "../assets/astrafeedback.webp";
-import AstraPhone from "../assets/astraphone.webp";
 import HoloMovies from "../assets/holomovies.webp";
 
 const images = {
   "quickshorten.webp": QuickShorten,
   "astrafeedback.webp": AstraFeedback,
-  "astraphone.webp": AstraPhone,
   "holomovies.webp": HoloMovies,
 };
 
