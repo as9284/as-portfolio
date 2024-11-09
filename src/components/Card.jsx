@@ -27,13 +27,13 @@ function Card({ image, title, description, link, preview }) {
         <div className="w-full flex flex-col justify-center items-center px-12 my-4 gap-1">
           <p
             onClick={() => openLink(link)}
-            className="text-neutral-600 font-semibold cursor-pointer dark:text-neutral-200 duration-200"
+            className="text-neutral-600 font-semibold cursor-pointer dark:text-neutral-200 select-none"
           >
             GitHub Details
           </p>
           <button
             onClick={() => openLink(preview)}
-            className="w-full text-base md:text-lg py-4 my-2 rounded-md bg-neutral-900 font-medium text-white hover:bg-neutral-700 hover:shadow-xl focus:bg-neutral-700 focus:shadow-lg active:scale-95 duration-300 uppercase dark:text-neutral-200"
+            className="w-full text-base md:text-lg py-4 my-2 rounded-md bg-neutral-900 font-medium text-white hover:bg-neutral-700 hover:shadow-xl focus:bg-neutral-700 focus:shadow-lg active:scale-95 duration-300 select-none uppercase dark:text-neutral-200"
           >
             Preview
           </button>
