@@ -4,11 +4,13 @@ import CardData from "../data/cardsData.json";
 import QuickShorten from "../assets/quickshorten.webp";
 import AstraFeedback from "../assets/astrafeedback.webp";
 import HoloMovies from "../assets/holomovies.webp";
+import SkyCloud from "../assets/skycloud.webp";
 
 const images = {
   "quickshorten.webp": QuickShorten,
   "astrafeedback.webp": AstraFeedback,
   "holomovies.webp": HoloMovies,
+  "skycloud.webp": SkyCloud,
 };
 
 const importAll = (imagePaths) => {

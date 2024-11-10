@@ -33,7 +33,7 @@ function Card({ image, title, description, link, preview }) {
           </p>
           <button
             onClick={() => openLink(preview)}
-            className="w-full text-base md:text-lg py-4 my-2 rounded-md bg-neutral-900 font-medium text-white hover:bg-neutral-700 hover:shadow-xl focus:bg-neutral-700 focus:shadow-lg active:scale-95 duration-300 select-none uppercase dark:text-neutral-200"
+            className="w-full text-base md:text-lg py-4 my-2 rounded-md bg-neutral-900 font-medium text-white hover:bg-neutral-700 focus:bg-neutral-700 active:scale-95 duration-300 select-none uppercase dark:text-neutral-200"
           >
             Preview
           </button>

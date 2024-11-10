@@ -22,5 +22,13 @@
     "src": "holomovies.webp",
     "link": "https://github.com/as9284/holo-movies",
     "preview": "https://holo-movies.vercel.app/"
+  },
+  {
+    "id": 4,
+    "title": "Sky Cloud",
+    "description": "SaaS website for a cloud storage service built with React & TailwindCSS, following a specific and unique design theme.",
+    "src": "skycloud.webp",
+    "link": "https://github.com/as9284/sky-cloud",
+    "preview": "https://sky-cloud.vercel.app/"
   }
 ]
