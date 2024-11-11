@@ -13,7 +13,7 @@ function Card({ image, title, description, link, preview }) {
         <img
           src={image}
           alt={title}
-          className="w-full h-[15rem] object-contain rounded-t-md hover:brightness-75 cursor-zoom-in duration-150"
+          className="w-full h-[14rem] object-cover rounded-t-md hover:brightness-75 cursor-zoom-in duration-150"
           onClick={() => setExpandImage(true)}
         />
         <div className="w-full flex flex-col justify-center items-center gap-2">
