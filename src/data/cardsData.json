@@ -34,7 +34,7 @@
   {
     "id": 5,
     "title": "Space Rise",
-    "description": "A spaceflight news web app that leverages the Spaceflight News API with React & TailwindCSS.",
+    "description": "A spaceflight news web app that leverages the Spaceflight News API with React & TailwindCSS for getting quick news related to spaceflights.",
     "src": "spacerise.webp",
     "link": "https://github.com/as9284/space-rise",
     "preview": "https://space-rise.vercel.app/"
