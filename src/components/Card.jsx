@@ -9,14 +9,14 @@ function Card({ image, title, description, link, preview }) {
 
   return (
     <>
-      <div className="max-w-[1240px] min-h-[36rem] flex flex-col justify-between items-center gap-2 shadow-md place-items-center rounded-md hover:scale-[1.02] duration-300 dark:bg-black">
+      <div className="max-w-[1240px] h-[36rem] flex flex-col justify-between items-center gap-2 shadow-md place-items-center rounded-md hover:scale-[1.02] duration-300 dark:bg-black">
         <img
           src={image}
           alt={title}
-          className="w-full h-auto rounded-t-md hover:brightness-75 cursor-zoom-in duration-150"
+          className="w-full h-[15rem] object-contain rounded-t-md hover:brightness-75 cursor-zoom-in duration-150"
           onClick={() => setExpandImage(true)}
         />
-        <div className="w-full flex flex-col justify-center items-center gap-2 my-12">
+        <div className="w-full flex flex-col justify-center items-center gap-2">
           <h1 className="text-2xl text-black font-bold uppercase dark:text-neutral-200">
             {title}
           </h1>

@@ -5,12 +5,14 @@ import QuickShorten from "../assets/quickshorten.webp";
 import AstraFeedback from "../assets/astrafeedback.webp";
 import HoloMovies from "../assets/holomovies.webp";
 import SkyCloud from "../assets/skycloud.webp";
+import SpaceRise from "../assets/spacerise.webp";
 
 const images = {
   "quickshorten.webp": QuickShorten,
   "astrafeedback.webp": AstraFeedback,
   "holomovies.webp": HoloMovies,
   "skycloud.webp": SkyCloud,
+  "spacerise.webp": SpaceRise,
 };
 
 const importAll = (imagePaths) => {
