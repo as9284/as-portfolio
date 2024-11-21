@@ -5,12 +5,14 @@ import HoloMovies from "../assets/holomovies.webp";
 import SkyCloud from "../assets/skycloud.webp";
 import SpaceRise from "../assets/spacerise.webp";
 import Memoir from "../assets/memoir.webp";
+import CleanLink from "../assets/cleanlink.webp";
 
 const images = {
   "holomovies.webp": HoloMovies,
   "skycloud.webp": SkyCloud,
   "spacerise.webp": SpaceRise,
   "memoir.webp": Memoir,
+  "cleanlink.webp": CleanLink,
 };
 
 const importAll = (imagePaths) => {

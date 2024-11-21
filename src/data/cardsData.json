@@ -30,5 +30,13 @@
     "src": "holomovies.webp",
     "link": "https://github.com/as9284/holo-movies",
     "preview": "https://holo-movies.vercel.app/"
+  },
+  {
+    "id": 5,
+    "title": "Clean Link",
+    "description": "Minimalistic and straightforward URL shortener to quickly shrink and clean up internet links using CleanURI API.",
+    "src": "cleanlink.webp",
+    "link": "https://github.com/as9284/clean-link",
+    "preview": "https://clean-link.vercel.app/"
   }
 ]
