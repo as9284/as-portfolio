@@ -1,30 +1,6 @@
 [
   {
     "id": 1,
-    "title": "Quick Shorten",
-    "description": "Minimal link shortening web app made with React & Tailwind that leverages the Bitly API for shrinking links quickly and easily.",
-    "src": "quickshorten.webp",
-    "link": "https://github.com/as9284/quick-shorten",
-    "preview": "https://as9284.github.io/quick-shorten/"
-  },
-  {
-    "id": 2,
-    "title": "Astra Feedback",
-    "description": "Signup/login web app that focuses on storing user data locally, encrypting user password and opening a feedback form page for showcase.",
-    "src": "astrafeedback.webp",
-    "link": "https://github.com/as9284/astra-feedback",
-    "preview": "https://as9284.github.io/astra-feedback/"
-  },
-  {
-    "id": 3,
-    "title": "Holo Movies",
-    "description": "Modern movie database discovery web app built with React and uses OMDb API for fetching movies and their details.",
-    "src": "holomovies.webp",
-    "link": "https://github.com/as9284/holo-movies",
-    "preview": "https://holo-movies.vercel.app/"
-  },
-  {
-    "id": 4,
     "title": "Sky Cloud",
     "description": "SaaS website for a cloud storage service built with React & TailwindCSS, following a specific and unique design theme.",
     "src": "skycloud.webp",
@@ -32,11 +8,35 @@
     "preview": "https://sky-cloud.vercel.app/"
   },
   {
-    "id": 5,
+    "id": 2,
     "title": "Space Rise",
     "description": "A spaceflight news web app that leverages the Spaceflight News API with React & TailwindCSS for getting quick news related to spaceflights.",
     "src": "spacerise.webp",
     "link": "https://github.com/as9284/space-rise",
     "preview": "https://space-rise.vercel.app/"
+  },
+  {
+    "id": 3,
+    "title": "Memoir",
+    "description": "Minimalistic note-taking app integrated with Firebase for account management, data backup and various other features.",
+    "src": "memoir.webp",
+    "link": "https://github.com/as9284/memoir",
+    "preview": "https://memoir-eight.vercel.app/"
+  },
+  {
+    "id": 4,
+    "title": "Quick Shorten",
+    "description": "Minimal link shortening web app made with React & Tailwind that leverages the Bitly API for shrinking links quickly and easily.",
+    "src": "quickshorten.webp",
+    "link": "https://github.com/as9284/quick-shorten",
+    "preview": "https://as9284.github.io/quick-shorten/"
+  },
+  {
+    "id": 5,
+    "title": "Holo Movies",
+    "description": "Modern movie database discovery web app built with React and uses OMDb API for fetching movies and their details.",
+    "src": "holomovies.webp",
+    "link": "https://github.com/as9284/holo-movies",
+    "preview": "https://holo-movies.vercel.app/"
   }
 ]
