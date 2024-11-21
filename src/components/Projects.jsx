@@ -1,14 +1,12 @@
 import Card from "./Card";
 import CardData from "../data/cardsData.json";
 
-import QuickShorten from "../assets/quickshorten.webp";
 import HoloMovies from "../assets/holomovies.webp";
 import SkyCloud from "../assets/skycloud.webp";
 import SpaceRise from "../assets/spacerise.webp";
 import Memoir from "../assets/memoir.webp";
 
 const images = {
-  "quickshorten.webp": QuickShorten,
   "holomovies.webp": HoloMovies,
   "skycloud.webp": SkyCloud,
   "spacerise.webp": SpaceRise,

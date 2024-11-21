@@ -25,14 +25,6 @@
   },
   {
     "id": 4,
-    "title": "Quick Shorten",
-    "description": "Minimal link shortening web app made with React & Tailwind that leverages the Bitly API for shrinking links quickly and easily.",
-    "src": "quickshorten.webp",
-    "link": "https://github.com/as9284/quick-shorten",
-    "preview": "https://as9284.github.io/quick-shorten/"
-  },
-  {
-    "id": 5,
     "title": "Holo Movies",
     "description": "Modern movie database discovery web app built with React and uses OMDb API for fetching movies and their details.",
     "src": "holomovies.webp",
